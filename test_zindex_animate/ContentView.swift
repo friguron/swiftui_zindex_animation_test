@@ -37,9 +37,9 @@ struct ContentView: View {
                     vm.arrayPieces[8].baseY = -216.0
                     
                     vm.arrayPieces[0].superRaised = true
-                    vm.arrayPieces[0].raised = true
+                    vm.arrayPieces[0].raised = false
                     
-                    vm.arrayPieces[8].superRaised = true
+                    vm.arrayPieces[8].superRaised = false
                     vm.arrayPieces[8].raised = true
                     
                 }
