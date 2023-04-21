@@ -44,7 +44,7 @@ struct ContentView: View {
                     
                 }
             }, label: {
-                Text("animate and 'swap' positions red and grey")
+                Text("animate flags and positions of red and grey")
             })
             
             Button(action: {
@@ -62,7 +62,7 @@ struct ContentView: View {
                     vm.arrayPieces[8].raised = false
                 }
             }, label: {
-                Text("animate and 'reset' positions red and grey, and its flags!!!")
+                Text("animate resetting back flags and positions of red and grey")
             })
         }
 
